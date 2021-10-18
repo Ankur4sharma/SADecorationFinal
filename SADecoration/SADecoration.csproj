@@ -1,0 +1,147 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\bootstrap.css" />
+    <Content Remove="wwwroot\css\font-awesome.css" />
+    <Content Remove="wwwroot\css\skdslider.css" />
+    <Content Remove="wwwroot\css\style.css" />
+    <Content Remove="wwwroot\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\js\easing.js" />
+    <Content Remove="wwwroot\js\jquery-1.11.1.min.js" />
+    <Content Remove="wwwroot\js\minicart.min.js" />
+    <Content Remove="wwwroot\js\move-top.js" />
+    <Content Remove="wwwroot\js\responsiveslides.min.js" />
+    <Content Remove="wwwroot\js\skdslider.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\font-awesome.css" />
+    <None Include="wwwroot\css\skdslider.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\Images\1.png" />
+    <None Include="wwwroot\Images\10.png" />
+    <None Include="wwwroot\Images\11-1.jpg" />
+    <None Include="wwwroot\Images\11.jpg" />
+    <None Include="wwwroot\Images\111.jpg" />
+    <None Include="wwwroot\Images\12.png" />
+    <None Include="wwwroot\Images\13.png" />
+    <None Include="wwwroot\Images\14.png" />
+    <None Include="wwwroot\Images\15.png" />
+    <None Include="wwwroot\Images\16.png" />
+    <None Include="wwwroot\Images\17.png" />
+    <None Include="wwwroot\Images\2.png" />
+    <None Include="wwwroot\Images\22-2.jpg" />
+    <None Include="wwwroot\Images\22.jpg" />
+    <None Include="wwwroot\Images\3.png" />
+    <None Include="wwwroot\Images\4.png" />
+    <None Include="wwwroot\Images\44-4.jpg" />
+    <None Include="wwwroot\Images\44.jpg" />
+    <None Include="wwwroot\Images\5.png" />
+    <None Include="wwwroot\Images\6.png" />
+    <None Include="wwwroot\Images\7.png" />
+    <None Include="wwwroot\Images\8.png" />
+    <None Include="wwwroot\Images\9.png" />
+    <None Include="wwwroot\Images\arrow.png" />
+    <None Include="wwwroot\Images\b1.jpg" />
+    <None Include="wwwroot\Images\b3.jpg" />
+    <None Include="wwwroot\Images\bv1.png" />
+    <None Include="wwwroot\Images\bv2.png" />
+    <None Include="wwwroot\Images\bv3.png" />
+    <None Include="wwwroot\Images\bv4.png" />
+    <None Include="wwwroot\Images\bv5.png" />
+    <None Include="wwwroot\Images\bv6.png" />
+    <None Include="wwwroot\Images\bv7.png" />
+    <None Include="wwwroot\Images\bv8.jpg" />
+    <None Include="wwwroot\Images\bv8.png" />
+    <None Include="wwwroot\Images\bv9.png" />
+    <None Include="wwwroot\Images\card.png" />
+    <None Include="wwwroot\Images\check.png" />
+    <None Include="wwwroot\Images\close_1.png" />
+    <None Include="wwwroot\Images\gu1.png" />
+    <None Include="wwwroot\Images\gu2.png" />
+    <None Include="wwwroot\Images\gu3.png" />
+    <None Include="wwwroot\Images\gu4.png" />
+    <None Include="wwwroot\Images\gu5.png" />
+    <None Include="wwwroot\Images\gu6.png" />
+    <None Include="wwwroot\Images\gu7.png" />
+    <None Include="wwwroot\Images\gu8.png" />
+    <None Include="wwwroot\Images\gu9.png" />
+    <None Include="wwwroot\Images\hh1.png" />
+    <None Include="wwwroot\Images\hh2.png" />
+    <None Include="wwwroot\Images\hh3.png" />
+    <None Include="wwwroot\Images\hh4.png" />
+    <None Include="wwwroot\Images\hh5.png" />
+    <None Include="wwwroot\Images\hh6.png" />
+    <None Include="wwwroot\Images\hh7.png" />
+    <None Include="wwwroot\Images\hh8.png" />
+    <None Include="wwwroot\Images\hh9.png" />
+    <None Include="wwwroot\Images\icon1.png" />
+    <None Include="wwwroot\Images\icon2.png" />
+    <None Include="wwwroot\Images\offer.png" />
+    <None Include="wwwroot\Images\p2.jpg" />
+    <None Include="wwwroot\Images\p3.jpg" />
+    <None Include="wwwroot\Images\p4.jpg" />
+    <None Include="wwwroot\Images\pc1.png" />
+    <None Include="wwwroot\Images\pc2.png" />
+    <None Include="wwwroot\Images\pc3.png" />
+    <None Include="wwwroot\Images\pc4.png" />
+    <None Include="wwwroot\Images\pc5.png" />
+    <None Include="wwwroot\Images\pc6.png" />
+    <None Include="wwwroot\Images\pc7.png" />
+    <None Include="wwwroot\Images\pc8.png" />
+    <None Include="wwwroot\Images\pc9.jpg" />
+    <None Include="wwwroot\Images\pf1.png" />
+    <None Include="wwwroot\Images\pf2.png" />
+    <None Include="wwwroot\Images\pf3.png" />
+    <None Include="wwwroot\Images\pf4.png" />
+    <None Include="wwwroot\Images\pf5.png" />
+    <None Include="wwwroot\Images\pf6.png" />
+    <None Include="wwwroot\Images\pf7.png" />
+    <None Include="wwwroot\Images\pf8.png" />
+    <None Include="wwwroot\Images\pf9.png" />
+    <None Include="wwwroot\Images\si1.jpg" />
+    <None Include="wwwroot\Images\star.png" />
+    <None Include="wwwroot\Images\star1.png" />
+    <None Include="wwwroot\Images\t1.jpg" />
+    <None Include="wwwroot\Images\t2.jpg" />
+    <None Include="wwwroot\Images\t3.jpg" />
+    <None Include="wwwroot\Images\t4.jpg" />
+    <None Include="wwwroot\Images\tick.png" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\easing.js" />
+    <None Include="wwwroot\js\jquery-1.11.1.min.js" />
+    <None Include="wwwroot\js\minicart.min.js" />
+    <None Include="wwwroot\js\move-top.js" />
+    <None Include="wwwroot\js\responsiveslides.min.js" />
+    <None Include="wwwroot\js\skdslider.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>
